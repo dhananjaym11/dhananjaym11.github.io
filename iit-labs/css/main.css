@@ -798,7 +798,7 @@ input.search-form:hover {
   color: #d43133;
 }
 .accordion h2{
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .panel-default{
@@ -1008,20 +1008,22 @@ a.accordion-toggle  i{
 }
 
 .contact-info i{
-  width: 60px;
+  /*idth: 60px;
   height: 60px;
   font-size: 40px;
   line-height: 60px;
   color: #fff;
   background: #000;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 10px;*/
+  margin-right: 3px;
+  color: #c52d2f;
 }
 
 .contact-info h2{
   /*margin-top: 0;
   color: #000;*/
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .contact-info{
@@ -2667,4 +2669,8 @@ shortcodes page css
 }
 #carousel-testimonial h4{
   font-size: 13px;
+}
+.nostyle {
+    list-style: none;
+    padding: 0;
 }
