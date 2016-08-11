@@ -799,6 +799,7 @@ input.search-form:hover {
 }
 .accordion h2{
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .panel-default{
@@ -1023,6 +1024,7 @@ a.accordion-toggle  i{
 .contact-info h2{
   /*margin-top: 0;
   color: #000;*/
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
