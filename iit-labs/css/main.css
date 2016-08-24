@@ -2628,6 +2628,9 @@ shortcodes page css
   clear: both;
 }
 .peoples-label {
+    margin: 0 0 5px;
+}
+.peoples-label label{
     margin: 0;
 }
 .col-right{
@@ -2675,7 +2678,4 @@ shortcodes page css
 .nostyle {
     list-style: none;
     padding: 0;
-}
-#testimonial .testimonial-title{
-  margin: 0 0 40px;
 }
