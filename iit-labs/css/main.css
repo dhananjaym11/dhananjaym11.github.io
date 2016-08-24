@@ -2676,3 +2676,6 @@ shortcodes page css
     list-style: none;
     padding: 0;
 }
+#testimonial .testimonial-title{
+  margin: 0 0 40px;
+}

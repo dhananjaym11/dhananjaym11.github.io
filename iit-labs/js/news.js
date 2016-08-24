@@ -9,6 +9,7 @@ jQuery(function($) {
 
 	function startSilder(){
 		var liH = $('.our-news li').outerHeight();
+		$('.our-news li').css('margin-top','0');
 		$('.our-news li').first().animate({
 	    	marginTop: '-'+liH+'px'
 	    	//marginTop: '-44px'
