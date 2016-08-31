@@ -340,8 +340,7 @@ ul.nostyle i {
   background: #242a33 url(../images/cta2/cta2-bg.jpg) no-repeat 50% 50%;
   background-size: cover;
   color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 90px 0;
 }
 #cta2 .btn {
   margin-top: 10px;
@@ -407,31 +406,32 @@ ul.nostyle i {
   padding: 100px 0;
   background: #f5f5f5;
 }
-#portfolio .portfolio-filter {
+#portfolio .nav{
   list-style: none;
   padding: 0;
-  margin: 0 0 50px;
+  margin: 0 0 5px;
   display: inline-block;
 }
-#portfolio .portfolio-filter > li {
+#portfolio .nav > li {
   float: left;
   display: block;
 }
-#portfolio .portfolio-filter > li a {
+#portfolio .nav > li a {
   display: block;
   padding: 7px 15px;
   background: #e5e5e5;
   color: #64686d;
   position: relative;
+  border-radius: 0;
 }
-#portfolio .portfolio-filter > li a:hover,
-#portfolio .portfolio-filter > li a.active {
+#portfolio .nav > li a:hover,
+#portfolio .nav > li.active a {
   background: #45aed6;
   color: #fff;
   box-shadow: 0 -3px 0 0 #318daf inset;
   -webkit-box-shadow: 0 -3px 0 0 #318daf inset;
 }
-#portfolio .portfolio-filter > li a.active:after {
+#portfolio .nav > li.active a:after {
   content: " ";
   position: absolute;
   bottom: -17px;
@@ -441,14 +441,24 @@ ul.nostyle i {
   border-style: solid;
   border-color: #318daf transparent transparent transparent;
 }
-#portfolio .portfolio-filter > li:first-child a {
+#portfolio .nav > li:first-child a {
   border-radius: 4px 0 0 4px;
 }
-#portfolio .portfolio-filter > li:last-child a {
+#portfolio .nav > li:last-child a {
   border-radius: 0 4px 4px 0;
 }
-#portfolio .portfolio-items {
-  margin: -15px;
+#portfolio .tab-content{
+  border: 0;
+  padding: 10px 0;
+}
+#portfolio .tab-content .row{
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+}
+#portfolio .tab-content .row{
+  font-size: 16px;
+  line-height: 30px;
 }
 #portfolio .portfolio-item {
   width: 24.9%;
@@ -809,14 +819,14 @@ ul.nostyle i {
 }
 #get-in-touch {
   padding: 100px 0 50px;
-  background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+  /*background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  color: #fff;
+  color: #fff;*/
 }
 #get-in-touch h1,
 #get-in-touch h2 {
-  color: #fff;
+  color: #333;
 }
 #blog {
   padding: 100px 0;
@@ -1000,7 +1010,17 @@ ul.nostyle i {
 }
 .events-listing p{
   color: #bbb;
+  margin: 0;
 }
 .Announcement-text{
   font-size: 16px;
+}
+.topics-list li {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 32px;
+}
+#about .section-header {
+    margin-bottom: 0px;
 }
