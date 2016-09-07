@@ -1024,3 +1024,24 @@ ul.nostyle i {
 #about .section-header {
     margin-bottom: 0px;
 }
+#faq{
+  padding: 100px 0;
+  background: #f5f5f5;
+}
+#faq .panel-title a{
+  background-color: #e5e5e5;
+  display: block;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #64686d;
+}
+#faq .panel-group .panel + .panel {
+    margin-top: 8px;
+}
+#faq .panel-group {
+    margin-bottom: 0px;
+}
+#faq .collapsed .glyphicon-minus:before {
+  content: "\2b";
+}
