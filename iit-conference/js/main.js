@@ -6,7 +6,7 @@ jQuery(function($) {'use strict';
 	});
 
 	$('.navbar-collapse ul li a').on('click', function() {  
-		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
+		$('html, body').animate({scrollTop: $(this.hash).offset().top - 89}, 1000);
 		return false;
 	});
 

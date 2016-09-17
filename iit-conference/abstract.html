@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MRSL | Abstract</title>
+  <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">     
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head><!--/head-->
+
+<body class="profile">
+  <header id="header">
+    <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                  <img src="images/mrsi_logo.png" alt="logo">
+                  <div class="logo-text">MRSL</div>
+              </a>
+          </div>
+      </div><!--/.container-->
+    </nav><!--/nav-->
+  </header><!--/header-->
+ 
+  <section>
+    <div class="container">
+      <div class="account-page abstract-info-page">
+        <div class="section-header mar-top-50">
+          <h2 class="section-title text-center">My Account</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <ul class="nav nav-stacked">
+              <li class="author"><a href="profile.html">Auther Profile</a></li>
+              <li class="active abstract"><a href="abstract.html">Abstract submission</a></li>
+              <li class="booking"><a href="#">Book Conference</a></li>
+              <!-- <li><a href="#">Menu 3</a></li> -->
+            </ul>
+          </div>
+          <div class="col-md-8 personal_deatails">
+            <h3 class="mar-top-0">Abstract Info</h3>
+            <form role="form">
+              <div class="form-group">
+                <label class="control-label">Abstract Topic </label>
+                <select class="custom-select form-control" id="abstract_topic" name="abstract_topic">
+                  <option selected value="">Please Select Topic</option>
+                  <option value="1">A. Fundamentals</option>
+                  <option value="2">B. Processing</option>
+                  <option value="3">C. Materials</option>
+                  <option value="4">D. Structures</option>
+                  <option value="5">E. Applications</option>
+                  <option value="6">F. Commercialization</option>
+                  <option value="7">G. Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="control-label">Abstract Title</label>
+                <input type="text" class="form-control" id="abstract_title" name="abstract_title" placeholder="Abstract Title" required>
+              </div>
+              <div class="form-group">
+                <label class="control-label">Author List</label>
+                <input type="text" class="form-control" id="author_list" name="author_list" placeholder="Author List" required>
+              </div>
+              <div class="form-group">
+                <label class="control-label">Abstract File</label>
+                <input type="file" id="file" class="custom-file-input form-control">
+              </div>
+              <div>
+                <button type="submit" class="btn btn-info btn-theme">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          &copy; 2016 MRSI. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </footer><!--/#footer test-->
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
+
