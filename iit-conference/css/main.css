@@ -1118,3 +1118,11 @@ body:not(.homepage) section{
   margin-left: 4px; 
   vertical-align: middle;
 }
+.author_no{
+  float: left;
+  width: 5%;
+}
+.author_data{
+  float: left;
+  width: 95%;
+}

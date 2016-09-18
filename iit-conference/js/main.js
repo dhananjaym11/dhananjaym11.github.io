@@ -193,7 +193,7 @@ jQuery(function($) {'use strict';
 	});
 
 	// Contact form
-	var form = $('#main-contact-form');
+	/*var form = $('#main-contact-form');
 	form.submit(function(event){
 		event.preventDefault();
 		var form_status = $('<div class="form_status"></div>');
@@ -205,7 +205,7 @@ jQuery(function($) {'use strict';
 		}).done(function(data){
 			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
 		});
-	});
+	});*/
 
 	//Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({

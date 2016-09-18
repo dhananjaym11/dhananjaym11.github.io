@@ -53,7 +53,28 @@
             <h3 class="mar-top-0">Abstract Info</h3>
             <form role="form">
               <div class="form-group">
-                <label class="control-label">Abstract Topic </label>
+                <label>Author's Info :</label>
+                <div class="author_list">
+                  <div class="clearfix">
+                    <div class="author_no">1.</div>
+                    <div class="author_data">
+                      <div class="form-group">
+                        <label>Author Name :</label>
+                        <input type="text" class="form-control" id="author_name_1" name="author_name_1">
+                      </div>
+                      <div class="form-group">
+                        <label>Author email id :</label>
+                        <input type="text" class="form-control" id="author_email_1" name="author_email_1">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <button class="btn btn-info add_author">Add New Author</button>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Abstract Topic :</label>
                 <select class="custom-select form-control" id="abstract_topic" name="abstract_topic">
                   <option selected value="">Please Select Topic</option>
                   <option value="1">A. Fundamentals</option>
@@ -66,15 +87,11 @@
                 </select>
               </div>
               <div class="form-group">
-                <label class="control-label">Abstract Title</label>
-                <input type="text" class="form-control" id="abstract_title" name="abstract_title" placeholder="Abstract Title" required>
+                <label>Abstract Title :</label>
+                <input type="text" class="form-control" id="abstract_title" name="abstract_title" required>
               </div>
               <div class="form-group">
-                <label class="control-label">Author List</label>
-                <input type="text" class="form-control" id="author_list" name="author_list" placeholder="Author List" required>
-              </div>
-              <div class="form-group">
-                <label class="control-label">Abstract File</label>
+                <label>Abstract File :</label>
                 <input type="file" id="file" class="custom-file-input form-control">
               </div>
               <div>
@@ -99,7 +116,15 @@
 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+  <!--<script src="js/main.js"></script>-->
+  <script>
+    $(document).ready(function(){
+      var i=1;
+      $('.add_author').click(function(){
+        $('.author_list').append('<div class="clearfix"><div class="author_no">'+ ++i +'.</div><div class="author_data"><div class="form-group"><label>Author Name :</label><input class="form-control" id="author_name_'+ i +'" name="author_name_'+ i +'" type="text"></div><div class="form-group"><label>Author email id :</label><input class="form-control" id="author_email_'+ i +'" name="author_email_'+ i +'" type="text"></div></div></div>'); 
+      })
+    })
+  </script>
 
 </body>
 </html>
