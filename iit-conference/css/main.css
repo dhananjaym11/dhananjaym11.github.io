@@ -1095,6 +1095,9 @@ ul.nostyle i {
 body:not(.homepage) footer{
   margin-top: 50px;
 }
+body:not(.homepage) section{
+  min-height: 460px;
+}
 .personal_deatails p{
   line-height: 1;
   display: inline-block;
@@ -1109,4 +1112,9 @@ body:not(.homepage) footer{
 .personal_deatails p > span{
   float: left;
   width: 80%;
+}
+.profile_edit{
+  font-size: 14px;
+  margin-left: 4px; 
+  vertical-align: middle;
 }
