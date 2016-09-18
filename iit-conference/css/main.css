@@ -1089,7 +1089,7 @@ ul.nostyle i {
 .btn.btn-theme {
   text-transform: uppercase;
   min-width: 220px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
 }
 body:not(.homepage) footer{
