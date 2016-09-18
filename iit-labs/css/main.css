@@ -1981,6 +1981,7 @@ ul.social_icons li  a i{
 textarea#message{
   resize: none;
   padding: 10px;
+  height: 185px;
 }
 
 #contact-page .contact-wrap {
