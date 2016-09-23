@@ -263,6 +263,7 @@ ul.nostyle i {
 }
 #main-slider {
   overflow: hidden;
+  height: 558px;
 }
 #main-slider .item {
   height: 558px;

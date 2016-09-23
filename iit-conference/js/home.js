@@ -6,16 +6,23 @@ jQuery(function($) {'use strict';
 	});
 
 	$('.navbar-collapse ul li a').on('click', function() {  
+		console.log($(this.hash).offset().top);
 		$('html, body').animate({scrollTop: $(this.hash).offset().top - 89}, 1000);
 		return false;
 	});
+
+	if (window.location.href.indexOf("#") != -1){
+        var goTo = window.location.hash.substr(1);
+        $('html, body').scrollTop(0);
+        $('html, body').animate({scrollTop: $('#'+goTo).offset().top - 89}, 1000);
+    }
 
 	// User define function
 	function Scroll() {
 		var contentTop      =   [];
 		var contentBottom   =   [];
 		var winTop      =   $(window).scrollTop();
-		var rangeTop    =   200;
+		var rangeTop    =   90;
 		var rangeBottom =   500;
 		$('.navbar-collapse').find('.scroll a').each(function(){
 			contentTop.push( $( $(this).attr('href') ).offset().top);
@@ -30,19 +37,19 @@ jQuery(function($) {'use strict';
 		})
 	};
 
-	$('#tohash').on('click', function(){
+	/*$('#tohash').on('click', function(){
 		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
 		return false;
-	});
+	});*/
 
 	// accordian
-	$('.accordion-toggle').on('click', function(){
+	/*$('.accordion-toggle').on('click', function(){
 		$(this).closest('.panel-group').children().each(function(){
 		$(this).find('>.panel-heading').removeClass('active');
 		 });
 
 	 	$(this).closest('.panel-heading').toggleClass('active');
-	});
+	});*/
 
 	//Slider
 	$(document).ready(function() {
@@ -161,7 +168,7 @@ jQuery(function($) {'use strict';
 		});
 
 		//Animated Number
-		$.fn.animateNumbers = function(stop, commas, duration, ease) {
+		/*$.fn.animateNumbers = function(stop, commas, duration, ease) {
 			return this.each(function() {
 				var $this = $(this);
 				var start = parseInt($this.text().replace(/,/g, ""));
@@ -189,7 +196,7 @@ jQuery(function($) {'use strict';
 				$this.animateNumbers($this.data('digit'), false, $this.data('duration')); 
 				$this.unbind('inview');
 			}
-		});
+		});*/
 	});
 
 	// Contact form
@@ -209,7 +216,8 @@ jQuery(function($) {'use strict';
 
 	//Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
-		social_tools: false
+		social_tools: false,
+		deeplinking: false 
 	});
 
 	//Google Map
