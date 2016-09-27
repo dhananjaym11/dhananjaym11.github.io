@@ -213,16 +213,26 @@ ul.nostyle i {
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
   }
   #main-menu.navbar-default .navbar-nav > li > a {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    /*padding-top: 25px;
+    padding-bottom: 35px;*/
+    height: 90px;
   }
   #main-menu.navbar-default .navbar-nav > li.active > a,
   #main-menu.navbar-default .navbar-nav > li.open > a,
   #main-menu.navbar-default .navbar-nav > li:hover > a {
     background: transparent;
-    padding-bottom: 32px;
+    /*padding-bottom: 32px;*/
+    padding-bottom: 12px;
     border-bottom: 3px solid #45aed6;
     background: rgba(69, 174, 214, 0.2);
+  }
+  #main-menu.navbar-default .navbar-nav > li > a > span {
+    display: block;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
