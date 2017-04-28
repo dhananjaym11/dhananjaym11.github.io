@@ -1,0 +1,5 @@
+<section class="todoapp">
+  <app-todo-header (add)="onAddTodoApp($event)"></app-todo-header>
+  <app-todo-list [todos]="todosFiltered" (toggleCompleteApp)="onToggleCompleteApp($event)" (removeApp)="onRemoveTodoApp($event)"></app-todo-list>
+  <app-todo-footer [todos]="todos" [completed]="completed" (filterChange)="filterChangeApp($event)"></app-todo-footer>
+</section>
