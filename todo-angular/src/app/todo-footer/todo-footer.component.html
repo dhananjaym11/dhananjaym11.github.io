@@ -1,0 +1,8 @@
+<div class="tabs" *ngIf="todos.length > 0">
+  <button (click)="filterChangeFun('')">All</button>
+  <button (click)="filterChangeFun('completed')">Completed</button>
+  <button (click)="filterChangeFun('non-completed')">Non-Completed</button>
+</div>
+<footer class="footer" *ngIf="todos.length > 0">
+  <span class="todo-count">{{completed}} completed out of <strong>{{todos.length}}</strong> {{todos.length == 1 ? 'item' : 'items'}}</span>
+</footer>
