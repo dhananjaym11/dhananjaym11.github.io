@@ -1,0 +1,58 @@
+[
+  {
+    "name":"Vikram Midge",
+    "shortname":"Vikram_Midge",
+    "role":"Applications Manager",
+    "extn":"6601",
+    "trigram":"vmv",
+    "profile":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+   {
+    "name":"Harshad Sanghavi",
+    "shortname":"Harshad_Sanghavi",
+    "role":"Applications Manager",
+    "extn":"6602",
+    "trigram":"wqy",
+    "profile":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+  {
+    "name":"Mukesh Kumar",
+    "shortname":"Mukesh_Kumar",
+    "role":"Dev Manager",
+    "extn":"6603",
+    "trigram":"fz8",
+    "profile":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+  {
+    "name":"Saloni Patankar",
+    "shortname":"Saloni_Patankar",
+    "role":"Dev Manager",
+    "extn":"6604",
+    "trigram":"s24",
+    "profile":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+  {
+    "name":"Prachi Patil",
+    "shortname":"Prachi_Patil",
+    "role":"Dev Manager",
+    "extn":"6605",
+    "trigram":"wv5",
+    "profile":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+  {
+    "name":"Vishal Agrawal",
+    "shortname":"Vishal_Agrawal",
+    "role":"Dev Manager",
+    "extn":"6606",
+    "trigram":"v8l",
+    "profile":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+  {
+    "name":"Shraddha Shedale",
+    "shortname":"Shraddha_Shedale",
+    "role":"Developer",
+    "extn":"6607",
+    "trigram":"l2p",
+    "profile":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  }
+]
