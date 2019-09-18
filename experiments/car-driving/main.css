@@ -1,0 +1,26 @@
+*{padding:0; margin:0; box-sizing:border-box;}
+body{font-family:arial; font-size:12px;line-height: 1;}
+.container{margin:0 auto; width:100px; height:200px; position: relative; background:#000; overflow: hidden;}
+.road{position: absolute; width: 100%; height: 1700px; bottom: 0px; background: green}
+.car{width:50px; height:50px; background:red; position: absolute; bottom: 0px; left:0;}
+div[class^='block']{width: 50px; height: 50px; background: #000; position:absolute; bottom:250px;}
+.road .block2{bottom:400px; right:0;}
+.road .block3{bottom:500px; right:0;}
+.road .block4{bottom:650px;left:0;}
+.road .block5{bottom:800px;right:0;}
+.road .block6{bottom:910px;}
+.road .block7{bottom:1050px; right:0;}
+.road .block8{bottom:1120px;right:0}
+.road .block9{bottom:1230px;}
+.road .block10{bottom:1340px;right:0;}
+.road .block11{bottom:1450px;left:0;}
+.overlay{position:absolute;width:100%; height:100%; background:rgba(0,0,0,.5); font-size: 18px; color: #fff; text-align: center; padding-top: 10px;}
+.start{position: absolute; width: 100%; height: 100%; background: black; text-align: center; line-height: 200px;}
+button{background: #fff; border: none; padding: 5px; text-transform: uppercase; color: rgb(51, 51, 51); cursor: pointer; border-radius: 2px;}
+.score{display:none; text-align: center; margin: 10px 0;}
+.level{color: #fff; position: absolute; width: 100%; height: 100%; background: black; padding: 65px 0 0; text-align: center;}
+.level > div{font-size: 14px; margin-bottom: 8px;}
+.level ul{list-style: none;}
+.level a{color:green; text-decoration:none; font-weight: bold; color: #39C; margin: 2px 0; display: inline-block;}
+.restart{text-align: center; display:none;}
+.restart button{background: #39c; color: #fff;}
