@@ -1,0 +1,54 @@
+.main {
+  max-width: 450px;
+}
+.container::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+.table-container {
+  float: left;
+}
+.theme-table {
+  list-style: none;
+  display: table;
+}
+.theme-table li {
+  display: table-row;
+}
+.theme-table li span {
+  display: table-cell;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #333;
+  position: relative;
+}
+.green {
+  background: green;
+}
+.red {
+  background: red;
+}
+.player-1:after {
+    content: '1';
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    font-size: 8px;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+.dice {
+  width: 25px;
+  line-height: 23px;
+  float: right;
+  border: 1px solid #333;
+  margin: 100px 50px 0 0;
+  text-align: center;
+}
+.message {
+    padding: 2px 7px;
+    color: #fff;
+}
