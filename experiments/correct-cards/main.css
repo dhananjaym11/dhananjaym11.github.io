@@ -1,0 +1,9 @@
+*{padding;0; margin:0; box-sizing:border-box;}
+.container{display:inline-block; perspective: 1000; -webkit-perspective: 1000;}
+.flipper{width:100px; height:100px; border: 1px solid #ddd; position: relative; float:left; cursor: pointer; margin:10px 0 0 10px; transform-style: preserve-3d;}
+.flipper.disabled{opacity:.5; cursor: unset;}
+.flipper .front, .flipper .back{position: absolute; top: 0; left: 0; width: 100%; backface-visibility: hidden; -webkit-transition: ease 0.6s all 0s; transition: ease 0.6s all 0s; line-height: 98px; text-align: center; text-transform: uppercase; color: #fff; font-family: arial, serif; font-size: 12px;}
+.flipper .front{background: lightgreen;-webkit-transform: rotateY(0deg); transform: rotateY(0deg);}
+.flipper.clicked .front{-webkit-transform: rotateY(-180deg); transform: rotateY(-180deg);}
+.flipper .back {background: lightblue; -webkit-transform: rotateY(-180deg); transform: rotateY(-180deg);}
+.flipper.clicked .back {-webkit-transform: rotateY(-360deg); transform: rotateY(-360deg);}
