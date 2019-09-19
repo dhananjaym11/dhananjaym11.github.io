@@ -1,0 +1,13 @@
+*{padding: 0;margin: 0}
+.container{text-align: center;}
+table{font-size:14px;line-height:1;margin: 0px auto;}
+table td {border: 1px solid #000;width: 14px;}
+table td:nth-child(2n){width: 40px;}
+table tr:nth-child(2n){height:40px;}
+table td.selected, table td.black{background:#000;}
+table td.green{background:green;}
+table td.red{background:red;}
+table td.click{cursor: pointer;}
+table td.green-hover:hover{background:green;}
+table td.red-hover:hover{background:red;}
+.result{margin-top:10px;}
